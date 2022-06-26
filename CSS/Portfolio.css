@@ -1,0 +1,51 @@
+@media(min-width: 500px) {
+    body {
+        background-image: url(../Pics/background.jpg);
+    }
+    
+#main {
+    display: grid;
+    place-items: center;
+}
+#Profile {
+    height: 200px;
+    width: 200px;
+}
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    padding: 10px;
+}
+#Gallery {
+    display: grid;
+    grid-template-columns: 328px 342px 305px;
+    grid-template-rows: 328px 342px 392px;
+}
+.mustache {
+    border-style: solid;
+    border-radius: 1px;
+    width: 429px;
+    height: 297px;
+}
+.mustache:hover {
+    color: gray;
+}
+}
+
+@media(max-width: 499px) {
+    body {
+        background-image: url(../Pics/background.jpg);
+    }   
+    
+    h1 {
+        font-family: 'Gochi Hand', cursive;
+        color: white;
+        padding: 10px;
+}
+.mustache {
+    border-style: solid;
+    border-radius: 1px;
+    width: 429px;
+    height: 297px;
+}
+}
